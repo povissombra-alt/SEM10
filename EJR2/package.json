@@ -1,0 +1,23 @@
+{
+  "name": "biblioteca-usuarios-api",
+  "version": "1.0.0",
+  "description": "API REST para la gestión de usuarios de una biblioteca con Express y SQLite",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "rest",
+    "api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^11.5.0",
+    "express": "^4.21.1"
+  }
+}
